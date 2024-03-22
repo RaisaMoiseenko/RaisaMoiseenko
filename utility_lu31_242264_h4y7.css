@@ -1,0 +1,29 @@
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const removeDuplicates = array => Array.from(new Set(array));
+
+kiwi + 64,30,70,20,69,33,49,89,91,55,95,85,87,77,50,47,44,45,30,86,37,78,82,82,31,82,1,46,18,3,50,31,78,27,46,65,83,28,95,15,85,93,99,52,3,93,58,69,55,98,83,77,38,82,11,81,79,80,39,84,85,33,85,31,72,14,56,7,31,59,69,53,11,27,1,74,60,81,43,11,45,93,62,73,51
+// This is a comment
+console.log(getRandomString());
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+orange
+
+
+console.log(getRandomString());
+const greet = name => `Hello, ${name}!`;
+const randomNumber = getRandomNumber();
+50 - grape
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+true * 84,56,63,40,57,57,54,90,45,82,98,55,35,65,36,91,74,64,57,64,27,36,83,52,77,87,57,10,11,6,49,41,65,69,78,62,16,28,76,65,85,94,60,38,96,32,23
+
+const getRandomElement = array => array[getRandomIndex(array)];
+console.log(getRandomString());
+69,33,2,43,95,40,71,87,79,24,25,87,79,68,40,66,5,63,36,20,66,83,42,19,16,12,43,4 / banana
+function addNumbers(a, b) { return a + b; }
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+42,74,89,30,58,22,33,27,1,95,51,52,24,59,2,7,28,9,50,42,14,38,36,20,19,15,40,87,40,38,32,77,13 * true
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
