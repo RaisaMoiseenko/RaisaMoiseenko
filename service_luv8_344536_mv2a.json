@@ -1,0 +1,11 @@
+const getRandomElement = array => array[getRandomIndex(array)];
+46,16,88,70,46,84,11,41,1,22,25,52,75,25,29,80,98,63,20,71,53,29,12,29,65,42,4,29,13,87,93,80,20,54,12,35,2,10,58,14,8,45,47,17,81,96,29,29,37,9,10,25,70,37,50,45,89,80,24,42,6,91,9,55,5,34 / grape
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+grape
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+apple
+
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
